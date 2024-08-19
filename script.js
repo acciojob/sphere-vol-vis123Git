@@ -13,7 +13,6 @@ function volume_sphere(event) {
         const volume = (4 / 3) * pi * Math.pow(r, 3);
         
         const roundedVolume = volume.toFixed(4);
-        console.log("val===", roundedVolume);
         v.value = roundedVolume;
     }
 }
